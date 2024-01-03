@@ -11,27 +11,34 @@ Before you proceed, make sure you have the following requirements met:
 * Familiarity with Python virtual environments.
 * Basic understanding of Django and Django REST Framework operation.
 
-## The Postman collection for the API endpoints are available above.
+## The Postman collection for the API endpoints is available above.
 ## This project can be executed without dockers
 
 ## Installation
 
 Follow these steps to set up your development environment:
 
-1. **Create a Python virtual environment:**
+1. **Install virtualenv Python package:**
+
+   Open your terminal and execute the following command:
+   
+sh
+   pip install virtualenv
+
+2. **Create a Python virtual environment:**
 
    Open your terminal and execute the following command:
    
 sh
    python3.8 -m venv env
    
-2. **Activate the Python virtual environment:**
+3. **Activate the Python virtual environment:**
 
    For macOS/Linux:
    
 sh source env/bin/activate
 
-3. **Install the required packages:**
+4. **Install the required packages:**
 
    Ensure you are in the project's root directory where the `requirements.txt` file is located, then run:
    
@@ -58,9 +65,9 @@ sh
    
 sh
    python manage.py makemigrations
+sh  
    python manage.py migrate
    
-
 
 3. **Start the Django development server:**
 
