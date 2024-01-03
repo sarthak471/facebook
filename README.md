@@ -1,4 +1,4 @@
-# Facebook Django DRF Project README
+# Facebook DRF Project
 
 ## Introduction
 
