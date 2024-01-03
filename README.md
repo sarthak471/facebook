@@ -25,23 +25,19 @@ Follow these steps to set up your development environment:
 sh
    python3.8 -m venv env
    
+2. **Activate the Python virtual environment:**
 
+   For macOS/Linux:
+   
+sh source env/bin/activate
 
-2. **Install the required packages:**
+3. **Install the required packages:**
 
    Ensure you are in the project's root directory where the `requirements.txt` file is located, then run:
    
 sh
    pip install -r requirements.txt
-   
 
-
-3. **Activate the Python virtual environment:**
-
-   For macOS/Linux:
-   
-sh
-   source env/bin/activate
    
 
 ## Running the Project
