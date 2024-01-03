@@ -11,6 +11,7 @@ Before you proceed, make sure you have the following requirements met:
 * Familiarity with Python virtual environments.
 * Basic understanding of Django and Django REST Framework operation.
 
+## The Postman collection for the above API endpoints is available.
 ## This project can be executed without dockers
 
 ## Installation
