@@ -1,0 +1,108 @@
+INFO 2024-01-03 10:35:02,623 autoreload 725581 140404433794880 Watching for file changes with StatReloader
+INFO 2024-01-03 10:35:04,428 views 725581 140404292843264 Executing registor usdddddddddddddddddddddddddddddddddddddddddder api
+INFO 2024-01-03 10:35:04,428 views 725581 140404292843264 Executing registor user api
+INFO 2024-01-03 10:35:04,428 views 725581 140404292843264 Executing registor user api
+INFO 2024-01-03 10:35:04,428 views 725581 140404292843264 Executing registor user api
+INFO 2024-01-03 10:35:04,556 basehttp 725581 140404292843264 "POST /connection/login/ HTTP/1.1" 200 52
+INFO 2024-01-03 10:35:14,699 autoreload 725581 140404433794880 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:35:15,924 autoreload 726091 140448903313216 Watching for file changes with StatReloader
+INFO 2024-01-03 10:35:35,070 autoreload 726091 140448903313216 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:35:35,422 autoreload 726708 140493173290816 Watching for file changes with StatReloader
+INFO 2024-01-03 10:40:43,934 autoreload 726708 140493173290816 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:40:45,028 autoreload 736519 140611147720512 Watching for file changes with StatReloader
+INFO 2024-01-03 10:41:15,768 views 736519 140611079243520 User logged in successfully: kong
+INFO 2024-01-03 10:41:15,771 basehttp 736519 140611079243520 "POST /connection/login/ HTTP/1.1" 200 52
+INFO 2024-01-03 10:42:17,001 autoreload 736519 140611147720512 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:42:17,828 autoreload 739692 139973813733184 Watching for file changes with StatReloader
+INFO 2024-01-03 10:42:29,374 basehttp 739692 139973745256192 "GET /connection/pending HTTP/1.1" 301 0
+INFO 2024-01-03 10:42:29,411 views 739692 139973745256192 List of pending friend requests retrieved successfully.
+INFO 2024-01-03 10:42:29,421 basehttp 739692 139973745256192 "GET /connection/pending/ HTTP/1.1" 200 2
+INFO 2024-01-03 10:43:20,048 autoreload 739692 139973813733184 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:43:20,719 autoreload 741816 140623374485312 Watching for file changes with StatReloader
+INFO 2024-01-03 10:43:22,298 autoreload 741816 140623374485312 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:43:22,985 autoreload 741960 139880075700032 Watching for file changes with StatReloader
+INFO 2024-01-03 10:49:05,025 autoreload 741960 139880075700032 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:49:06,155 autoreload 754001 140070995470144 Watching for file changes with StatReloader
+INFO 2024-01-03 10:49:39,431 autoreload 754001 140070995470144 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:49:40,515 autoreload 755100 140267377305408 Watching for file changes with StatReloader
+INFO 2024-01-03 10:50:12,773 autoreload 755100 140267377305408 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:50:13,163 autoreload 756268 139846736316224 Watching for file changes with StatReloader
+ERROR 2024-01-03 10:50:25,808 views 756268 139846600701696 Failed to create user: {'username': [ErrorDetail(string='Ensure this value has at least 8 characters (it has 4).', code='min_length')], 'password': [ErrorDetail(string='Ensure this value has at least 8 characters (it has 4).', code='min_length'), ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')], 'email': [ErrorDetail(string='This field must be unique.', code='unique')]}
+WARNING 2024-01-03 10:50:25,809 log 756268 139846600701696 Bad Request: /connection/create/
+WARNING 2024-01-03 10:50:25,810 basehttp 756268 139846600701696 "POST /connection/create/ HTTP/1.1" 400 297
+ERROR 2024-01-03 10:50:44,286 views 756268 139846600701696 Failed to create user: {'password': [ErrorDetail(string='Ensure this value has at least 8 characters (it has 4).', code='min_length'), ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')]}
+WARNING 2024-01-03 10:50:44,304 log 756268 139846600701696 Bad Request: /connection/create/
+WARNING 2024-01-03 10:50:44,305 basehttp 756268 139846600701696 "POST /connection/create/ HTTP/1.1" 400 187
+ERROR 2024-01-03 10:50:51,695 views 756268 139846600701696 Failed to create user: {'password': [ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')]}
+WARNING 2024-01-03 10:50:51,695 log 756268 139846600701696 Bad Request: /connection/create/
+WARNING 2024-01-03 10:50:51,696 basehttp 756268 139846600701696 "POST /connection/create/ HTTP/1.1" 400 129
+ERROR 2024-01-03 10:50:57,577 views 756268 139846600701696 Failed to create user: {'password': [ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')]}
+WARNING 2024-01-03 10:50:57,578 log 756268 139846600701696 Bad Request: /connection/create/
+WARNING 2024-01-03 10:50:57,578 basehttp 756268 139846600701696 "POST /connection/create/ HTTP/1.1" 400 129
+ERROR 2024-01-03 10:51:02,813 views 756268 139846600701696 Failed to create user: {'password': [ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')]}
+WARNING 2024-01-03 10:51:02,814 log 756268 139846600701696 Bad Request: /connection/create/
+WARNING 2024-01-03 10:51:02,828 basehttp 756268 139846600701696 "POST /connection/create/ HTTP/1.1" 400 129
+INFO 2024-01-03 10:51:11,051 autoreload 756268 139846736316224 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:11,814 autoreload 758481 140065509107520 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:13,891 autoreload 758481 140065509107520 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:15,359 autoreload 758551 139673269434176 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:19,252 autoreload 758551 139673269434176 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:20,044 autoreload 758793 139817100715840 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:23,245 autoreload 758793 139817100715840 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:23,962 autoreload 758843 140363543676736 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:29,522 autoreload 758843 140363543676736 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:30,399 autoreload 759060 139870987007808 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:32,986 autoreload 759060 139870987007808 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:33,687 autoreload 759240 140449996633920 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:37,652 autoreload 759240 140449996633920 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:38,498 autoreload 759294 140659574908736 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:47,121 autoreload 759294 140659574908736 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:48,251 autoreload 759690 139881102202688 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:55,254 autoreload 759690 139881102202688 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:56,404 autoreload 759928 140277908727616 Watching for file changes with StatReloader
+INFO 2024-01-03 10:51:59,060 autoreload 759928 140277908727616 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:51:59,760 autoreload 760082 140414846498624 Watching for file changes with StatReloader
+INFO 2024-01-03 10:52:04,706 autoreload 760082 140414846498624 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:52:05,259 autoreload 760182 140337791665984 Watching for file changes with StatReloader
+INFO 2024-01-03 10:52:06,814 autoreload 760182 140337791665984 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:52:07,714 autoreload 760356 140042623145792 Watching for file changes with StatReloader
+INFO 2024-01-03 10:52:12,637 autoreload 760356 140042623145792 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:52:12,983 autoreload 760441 140271673919296 Watching for file changes with StatReloader
+INFO 2024-01-03 10:52:14,336 autoreload 760441 140271673919296 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/serializers.py changed, reloading.
+INFO 2024-01-03 10:52:15,202 autoreload 760639 140461042976576 Watching for file changes with StatReloader
+INFO 2024-01-03 10:56:53,712 autoreload 760639 140461042976576 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/helper.py changed, reloading.
+INFO 2024-01-03 10:56:54,500 autoreload 771068 140258120501056 Watching for file changes with StatReloader
+INFO 2024-01-03 10:56:56,218 autoreload 771068 140258120501056 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/helper.py changed, reloading.
+INFO 2024-01-03 10:56:56,625 autoreload 771099 139644687583040 Watching for file changes with StatReloader
+INFO 2024-01-03 10:57:34,663 autoreload 771099 139644687583040 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:57:34,953 autoreload 772564 140127924012864 Watching for file changes with StatReloader
+INFO 2024-01-03 10:57:47,443 autoreload 772564 140127924012864 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:57:48,637 autoreload 773147 140443281700672 Watching for file changes with StatReloader
+INFO 2024-01-03 10:59:14,949 autoreload 773147 140443281700672 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:59:15,950 autoreload 776387 140250370889536 Watching for file changes with StatReloader
+INFO 2024-01-03 10:59:23,578 autoreload 776387 140250370889536 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:59:23,809 autoreload 776671 140580968519488 Watching for file changes with StatReloader
+INFO 2024-01-03 10:59:26,993 autoreload 776671 140580968519488 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:59:27,976 autoreload 776877 140476205483840 Watching for file changes with StatReloader
+INFO 2024-01-03 10:59:47,886 autoreload 776877 140476205483840 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 10:59:48,728 autoreload 777658 140117754312512 Watching for file changes with StatReloader
+INFO 2024-01-03 11:00:05,636 autoreload 777658 140117754312512 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:00:06,152 autoreload 778330 140524624967488 Watching for file changes with StatReloader
+INFO 2024-01-03 11:00:10,567 autoreload 778330 140524624967488 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:00:11,492 autoreload 778532 140236965287744 Watching for file changes with StatReloader
+INFO 2024-01-03 11:01:07,126 autoreload 778532 140236965287744 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:01:07,768 autoreload 780575 140665649977152 Watching for file changes with StatReloader
+INFO 2024-01-03 11:01:09,360 autoreload 780575 140665649977152 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:01:10,340 autoreload 780606 140424239318848 Watching for file changes with StatReloader
+INFO 2024-01-03 11:01:24,060 autoreload 780606 140424239318848 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:01:24,741 autoreload 781236 139799236847424 Watching for file changes with StatReloader
+INFO 2024-01-03 11:01:28,633 autoreload 781236 139799236847424 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:01:28,881 autoreload 781315 139886073681728 Watching for file changes with StatReloader
+INFO 2024-01-03 11:02:06,817 autoreload 781315 139886073681728 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:02:07,036 autoreload 782719 140603838592832 Watching for file changes with StatReloader
+INFO 2024-01-03 11:02:09,194 autoreload 782719 140603838592832 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:02:10,149 autoreload 782881 140212978632512 Watching for file changes with StatReloader
+INFO 2024-01-03 11:02:12,933 autoreload 782881 140212978632512 /home/unthinkable-lap/AllTheDjangoTaskOnBitBuket/facebook/connection/views.py changed, reloading.
+INFO 2024-01-03 11:02:13,247 autoreload 782950 139788252022592 Watching for file changes with StatReloader
+ERROR 2024-01-03 11:02:22,710 views 782950 139788183545600 Failed to create user: {'password': [ErrorDetail(string='Password must contain at least one lowercase letter, one uppercase letter, one digit, and one special character.', code='invalid')]}
+INFO 2024-01-03 11:02:22,711 basehttp 782950 139788183545600 "POST /connection/create/ HTTP/1.1" 200 199
